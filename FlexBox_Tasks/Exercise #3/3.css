@@ -1,0 +1,21 @@
+/* Done by : Amal Al Dajah */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	display: flex;
+	flex-flow: column wrap;
+	background-color: red;
+	height: 1024px;
+	width: 100%;
+}
+
+
+article {
+	width: 350px;
+	background-color: white;
+	margin: 10px;
+}
+

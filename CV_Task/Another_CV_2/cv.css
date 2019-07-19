@@ -1,0 +1,58 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 250px;
+}
+
+.verticalContainer {
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+.horizantalContainer {
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+.littleContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    height: 100px;
+
+  }
+
+.header {
+    position: relative;
+    left:0 ;
+    top: 0;
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    height: 200px;
+}
+
+h1 {
+    border-top: 1px solid royalblue;
+}
+
+.pic {
+    z-index: 1;
+    position: absolute;
+   right: 50px;
+   top: 50px;
+    height: 50px;
+    widows: 50px;
+}

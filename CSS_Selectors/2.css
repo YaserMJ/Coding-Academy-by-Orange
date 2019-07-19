@@ -1,0 +1,32 @@
+body {
+    background-color: #f0f8ff;
+}
+
+div {
+    width: 75%;
+    min-width: 500px;
+    border: 1px solid #333333;
+    margin-top: 1em;
+    padding: 0.5em;
+    background-color: white;
+    box-shadow: 3px 3px 2px #3c3c3c;
+    border-radius: 5px;
+}
+
+span {
+    font-weight: bold;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#borderino {
+     border: 1px dashed red;
+     color: red;
+}
+
+.one {
+     background-color: #fdca96;
+}
+.two {
+    background-color: #fdfd96;
+}

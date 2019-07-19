@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      fieldset {
+        width: 350px;
+
+        background-color: lightgoldenrodyellow;
+      }
+      label {
+        width: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+      form {
+        width: 50%;
+        margin: 0 auto;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Exercise 2</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Personal details</legend>
+        <label for="fn">First name : <input type="text" name="fn"/></label>
+        <br />
+        <label for="ln">Last name : <input type="text" name="ln"/></label>
+        <br />
+        <label for="email">Email : <input type="email" name="email"/></label>
+        <br />
+        <label for="gender"
+          >Gender <input type="radio" name="gender" id="male" /> male
+          <input type="radio" name="gender" id="female" /> female
+          <input type="radio" name="gender" id="other" /> Other
+        </label>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Magazines</legend>
+        <input type="checkbox" name="magazine" id="St" /> Stavanger <br />
+        <input type="checkbox" name="magazine" id="T" /> Teknisk <br />
+        <input type="checkbox" name="magazine" id="Se" /> Se og Hor <br />
+        <input type="checkbox" name="magazine" id="Fe" /> Familien <br />
+        <br />
+      </fieldset>
+      <fieldset>
+        <legend>Subscription</legend>
+        <br />
+        <label for="period"
+          >Period :
+          <select name="period" id="sub">
+            <option value="6">6</option>
+            <option value="12">12</option>
+            <option value="18">18</option>
+            <option value="24">24</option>
+          </select></label
+        >
+        <br />
+      </fieldset>
+      <center><button type="submit">Subscribe</button></center>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+/*main container */
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    padding: 10px;
+    flex-flow: row wrap;
+    
+}
+/* product container , general styling */
+.product {
+    display: flex;
+    background-color: white;
+    background-image: linear-gradient(to right bottom, #3dcceb, #8dd6fa, #c2e0ff, #e8eeff, #ffffff);   flex-direction: column; 
+    padding: 10px;
+    margin: 10px;
+    
+}
+/* Avatar effect on images */
+img {
+        vertical-align: middle;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+
+}
+/* Button styling */
+button {
+background-color: #3DCCEB;
+border: none;
+color: white;
+padding: 15px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+border-radius: 12px;
+ 
+}
+/* Button hover effect */
+.hovicon.effect-1.sub-a:hover {
+background: rgba(255, 255, 255, 1);
+color: #41ab6b;}
+/* Button hover style here */
+.hovicon {
+display: inline-block;
+line-height: 40px;
+cursor: pointer;
+text-align: center;
+position: relative;
+text-decoration: none;
+z-index: 1;
+color: #fff;
+}
+/* picture zooming style here */
+.zoom {
+padding: 50px;;
+transition: transform .2s; /* Animation */
+width: 200px;
+height: 200px;
+margin: 0 auto;
+}
+/* zoom hover effect */
+.zoom:hover {
+transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

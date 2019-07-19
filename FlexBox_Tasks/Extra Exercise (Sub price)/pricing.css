@@ -1,0 +1,65 @@
+/*main flex container */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-start;
+    width: 1000px;
+    height: 1000px;
+}
+/* Card container */
+.price {
+    background-image: url("cloud.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid lightgray;
+    box-shadow: 10px 10px 10px 10px #0090f6;
+    height: 500px;
+    width: 300px;
+}
+/* button styling */
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 80px;
+
+    
+}
+
+.info {
+    border-color: #0090f6;
+    color:#0090f6;
+  }
+  
+  .info:hover {
+    background: #0090f6;
+    color: white;
+  }
+/* z-index effect */
+.indexer {
+    z-index: -1;
+}
+/* h1 general style */
+h1 {
+    color: #0090f6;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+
+}
+/* h4 general style */
+h4 {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    font-family: 'Sniglet', cursive;
+
+}
+p {
+    text-align: center;
+
+}

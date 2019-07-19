@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr ;
+    width: 800px;
+    height: 800px;
+
+}
+
+div {
+    text-align: center;
+    font-size: 30px;
+}
+
+div:nth-child(1) {
+    background: lightblue;
+  }
+
+  div:nth-child(2) {
+    background: gold;
+  }
+
+  div:nth-child(3) {
+    background: gray;
+  }
+
+  div:nth-child(4) {
+    background: lightseagreen;
+  }

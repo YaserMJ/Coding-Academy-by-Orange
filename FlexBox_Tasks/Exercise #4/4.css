@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #fff;
+  }
+  
+  ul.ChatLog {
+    list-style: none;
+  }
+  
+  .ChatLog {
+    max-width: 20em;
+    margin: 0 auto;
+  }
+  .ChatLog .ChatLog__entry {
+    margin: .5em;
+  }
+  
+  .ChatLog__entry {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    max-width: 100%;
+  }
+  
+  .ChatLog__entry.ChatLog__entry_mine {
+    flex-direction: row-reverse;  
+  }
+  
+  .ChatLog__avatar {
+    flex-shrink: 0;
+    flex-grow: 0;
+    z-index: 1;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    
+  }
+  
+  .ChatLog__entry.ChatLog__entry_mine 
+  .ChatLog__avatar {
+    display: none;
+  }
+  
+  .ChatLog__entry .ChatLog__message {
+    position: relative;
+    margin: 0 12px;
+  }
+  
+  .ChatLog__message {
+    background-color: #ddd;
+    padding: .5em;
+    border-radius: 4px;
+    font-weight: lighter;
+    max-width: 70%;
+  }
+  
+  .ChatLog__entry.ChatLog__entry_mine .ChatLog__message {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color: gray;
+    color: #fff;
+  }
+  
+  

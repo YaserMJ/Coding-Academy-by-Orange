@@ -1,0 +1,16 @@
+/*main flex container */
+.container{
+    display: flex;
+    width: 800px;
+    height: 200px;
+
+
+   }
+/*changes child divs display and colors*/
+   .ch{
+   display: block;
+   background-color: orange;
+   width: 200px;
+  height: 200px;
+  padding: 200px;
+   }

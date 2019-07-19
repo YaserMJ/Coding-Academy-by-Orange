@@ -1,0 +1,57 @@
+body {
+   font-family: 'Roboto', sans-serif;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+.leftie {
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.rightie {
+    float: right;
+}
+.herobg {
+    background-image: url("https://www.paypalobjects.com/webstatic/en_GB/mktg/wright/home/homepage-hero-1x.jpg");
+    height: 500px;
+    color: white;
+}
+
+.centered {
+    text-align: center;
+    margin-top: 150px;
+    color: white;
+}
+
+.littleContainer {
+    text-align: center;
+    padding-bottom: 50px;
+    padding: 50px;
+}
+.circle {
+border: 1px solid silver;
+    border-radius: 50%;
+    width: 8px;
+    float: left;
+    margin-right: 20px;
+}
+
+.thirdpart {
+    background-color: lightgray;
+}
+header{
+    text-align: center;
+    margin: 20px;
+}
+
+.blue {
+    background-color: #009cde;
+    background-image: radial-gradient(circle farthest-side at center bottom,#009cde,#003087 125%);
+}
+.para {
+    text-align: center;
+    width: 200px;
+}

@@ -1,0 +1,64 @@
+/* hover effect here */
+.hovicon.effect-1.sub-a:hover {
+    background: rgba(255, 255, 255, 1);
+    color: #41ab6b;}
+/*hover properties */
+    .hovicon {
+    display: inline-block;
+    
+    line-height: 40px;
+    cursor: pointer;
+  
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    color: #fff;}
+/* General changes on the whole HTML */
+html {  
+  overflow-y: scroll; 
+  box-sizing: border-box;  
+  font-size: 100%;
+  line-height: 1.4236;
+  font-family: 'Roboto', sans-serif;
+  background-color: lightseagreen;
+  color: #444;
+}
+/* The parent container */
+.wrapper {
+    display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  box-shadow: 0px .5vh 5px 0px rgba(0,0,0,.25);
+  padding:1em;
+  background-color:#fff;
+  max-width: 53rem;
+  margin: 1em auto;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Pagination container */
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em;
+    background-color :bisque;
+    justify-content: center;
+    align-items: center;
+}
+/* pagination style - numbers  */
+.boxie {
+    border: 1px solid lightblue;
+    width: 50px;
+    height: 50px;
+    flex: 50px;
+    padding: 10px;
+    background-color: lightseagreen;
+   
+}
+.words {
+    text-align: center;
+}
