@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #5: Input check</title>
+    <style>
+        * {
+            font-family: Arial, sans-serif;
+        }
+
+        .err {
+            color: red;
+            font-size: 0.7em;
+        }
+    </style>
+</head>
+<body>
+
+<form name="pw">
+    <table>
+        <tr>
+            <td>Password (min 6 characters):</td>
+            <td><input type="password" name="password1" id="password1" size="10" placeholder="Password" onkeyup="passIt()"></td>
+            <td>
+                <div id="pw1_check" class="err"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>Repeat password:</td>
+            <td><input type="password" name="password2" id="password2" size="10" placeholder="Password" onkeyup="match()"></td>
+            <td>
+                <div id="pw2_check" class="err"></div>
+            </td>
+        </tr>
+    </table>
+
+    <input type="submit" value="Submit" id="submitBtn"/>
+</form>
+<script>
+window.onload = document.getElementById("submitBtn").style.display = "none";
+var pw1 = document.getElementById("password1").value;
+var pw2 = document.getElementById("password2").value;
+var check1 = document.getElementById("pw1_check");
+var check2 = document.getElementById("pw2_check");
+var button = document.getElementById("submitBtn");
+function checkie(){
+if (pw1.value.length > 0){
+    if(pw1.value.length <6){
+     check1.innerHTML = "Too short";
+        if (pw2.value.length > 0 && pw1.value.length != pw2.value.length) {
+            check2.innerHTML = "passwords don't match";
+                if (pw1=== pw2) {
+                    button.style.display = "";
+                    }
+                else {
+                    button.style.display = "none";
+            }
+        }
+    }
+}
+
+}
+
+
+
+// var pw1 = document.getElementById("password1").value;
+// var pw2 = document.getElementById("password2").value;
+// var check1 = document.getElementById("pw1_check");
+// var check2 = document.getElementById("pw2_check");
+// var button = document.getElementById("submitBtn");
+// function passIt(){
+//     if(pw1.value.length < 6 && pw1.value.length >0){
+//         check1.innerHTML = "too short :d";
+
+//     }else {
+//         check1.innerHTML = "";
+//     }
+// }
+// function match(){
+//     if(pw2.value != pw1.value){
+//         check2.innerHTML = "no match";
+//     } else{
+//         check2.innerHTML = "";
+//         document.getElementById("submitBtn").style.visibility = "visible"
+
+//     }
+// }
+</script>
+</body>
+</html>
+

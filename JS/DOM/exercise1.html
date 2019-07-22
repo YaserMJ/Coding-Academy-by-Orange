@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #1: Changing text</title>
+    <style>
+        #mydiv {
+            width: 300px;
+            height: 50px;
+            line-height: 50px;  /* for vertical alignment of text */
+            text-align: center;
+            border: 1px solid black;
+            background-color: yellow;
+            font-size: 2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<div id="mydiv">Hello world</div>
+<script>
+    function set(el, text) {
+        el.innerHTML = text;
+    }
+    window.onload = function () {
+        var x = document.getElementById("mydiv");
+        x.addEventListener("mouseout", function () {
+            set(this, 'Hello world!');
+        });
+        x.addEventListener("mouseover", function () {
+            set(x, 'Can I help you?');
+        });
+        
+    }
+</script>
+</body>
+</html>

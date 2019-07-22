@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise 3</title>
+   
+    </head>
+    <body>
+        <form action="">
+            <select id="cat" onchange="set()">
+                    <option value="http://www.clker.com/cliparts/4/4/4/T/k/W/no-camera-allowed-md.png">select</option>
+                    <option value="https://memecrunch.com/meme/4OXC6/let-s-keep-this-professional/image.jpg?w=500&c=1">cat1</option>
+                    <option value="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK9mQZZCejqTu7SMQDOm5zEXCLKznFeoNq5dXDsnq84D3grNLz">cat2</option>
+                </select>
+            </form>
+            <img id="img" src="http://www.clker.com/cliparts/4/4/4/T/k/W/no-camera-allowed-md.png" style="border: 1px solid black" alt="No image selected"/>
+                <script>
+                    function set() {
+                        var cat = document.getElementById("cat");
+                        var img = document.getElementById("img");
+                        img.src = cat.options[cat.selectedIndex].value;
+                }
+                </script>
+               
+    </body>
+    </html>
