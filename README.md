@@ -29,14 +29,13 @@ This repository holds the solutions submitted in partial fulfillment of the requ
 | JS Recursion     | ❌            |  |
 | JS forEach       | ✔️            |  |
 | JS Reduce&Filter | ✔️            |  |
-| JS Challenge1    | ❌            |  |
+| JS Challenge     | ❌            |  |
 | JS Objects       | ✔️            |  |
 | JS DOM           | ✔️            |  |
-| jQuery Basic#1   | ❌            |  |
-| JQuery Basic#2   | ❌            |  |
-| JQuery Advanced  | ❌            |  |
-| Project Two      | ❌            |  |
+| jQuery Basic#1   | ✔️            |  |
+| JQuery Advanced  | ✔️            |Replaced due to laptop format  |
+| Project Two      | ✔️            |  |
 | JS OOJS          | ✔️            |  |
-| JS ES6           | ❌            |  |
+| JS ES6           | ✔️            | Part 2 is not done yet |
 |React-mini-apps   | ❌            |  |
 |Project three     | ❌            |  |
