@@ -35,6 +35,8 @@ This repository holds the solutions submitted in partial fulfillment of the requ
 | jQuery Basic#1   | ❌            |  |
 | JQuery Basic#2   | ❌            |  |
 | JQuery Advanced  | ❌            |  |
-| Project Two      | ✔️            |  |
+| Project Two      | ❌            |  |
 | JS OOJS          | ✔️            |  |
 | JS ES6           | ❌            |  |
+|React-mini-apps   | ❌            |  |
+|Project three     | ❌            |  |
