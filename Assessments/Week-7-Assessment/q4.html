@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script
+src="https://code.jquery.com/jquery-3.4.1.js"
+integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+crossorigin="anonymous"></script>
+
+
+<style>
+#no {
+background-color: red;
+}
+#yes {
+background-color: green;
+
+}
+</style>
+
+<title>Q4</title>
+</head>
+
+<body>
+
+<div class="main">Main div is here</div>
+<button id="no">Red</button>
+<button id="yes">Green</button>
+
+
+<script>
+	clicked = true;
+$(document).ready(function(){
+	$("#no").click(function(){
+		if(clicked){
+			$('.main').css('background-color', 'red');
+			clicked  = false;
+		} 
+		clicked = true;
+	});
+	$("#yes").click(function(){
+		if(clicked){
+			$('.main').css('background-color', 'green');
+			clicked  = false;
+		}
+		clicked = true; 
+	});
+});
+	
+</script>
+
+</body>
+</html>
