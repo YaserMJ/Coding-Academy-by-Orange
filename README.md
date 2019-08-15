@@ -4,7 +4,7 @@
 
 
 **Description :**
-This repository holds the solutions submitted in partial fulfillment of the requirements of the Coding Academy participation.
+This repository holds the solutions submitted in partial fulfillment of the participation requirements of the Coding Academy .
 
 **Subjects :**
 
