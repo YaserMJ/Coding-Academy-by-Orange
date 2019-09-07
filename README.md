@@ -41,3 +41,5 @@ This repository holds the solutions submitted in partial fulfillment of the part
 |Project three     | ✔️           | Uploaded in a separated repository. |
 |Extra Github project    | ✔️           | Uploaded in a separated repository. |
 |MongoDB           | ✔️           | Part 2 is not uploaded yet. |
+|MySQL           | ❌           | |
+
