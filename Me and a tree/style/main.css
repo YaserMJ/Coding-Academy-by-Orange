@@ -1,0 +1,116 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+
+}
+/* Typewriter effect container */
+.typewriter {
+font-family: 'Dancing Script', cursive !important;
+	display: inline-block;
+}
+/* Typewriter effect For text */
+.typewriter-text {
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 2s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid #C8E195;
+    box-sizing: border-box;
+}
+/* Typewriter : typing keyframe */
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+/* Typewriter : blink keyframe */
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: #C8E195; 
+    }
+}
+/* Gradient linear background */
+.gbk {
+    background: linear-gradient(45deg, white 65%, #C8E195 30%);
+
+/* Animated tree resizing */
+}
+.tree {
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+}
+/* No Background class */
+.nobk{
+    background: none;
+}
+/* Parallax effect */
+.parallax { 
+  /* The image used */
+  background-image: url("../img/111.jpg");
+
+  /* Set a specific height */
+  height: 400px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Idk why I named it like this LOL */
+.h21{
+  text-align:center;
+}
+/* This si for other browsers */
+.gal {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}
+/* This si for other browsers */
+.gal img{ width: 100%; padding: 7px 0;}
+@media (max-width: 500px) {	
+	.gal {
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	}
+}
+
+/* changes moto photos size */
+.imgSize {
+    width: 200px;
+    height: 200px
+}
+/* changes sponser photos size */
+.imgSize2 {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 20px;
+}
+/* changes moto text specs */
+.three {
+    text-align: center;
+    padding: 50px;
+    margin-left: auto;
+      margin-right: auto;
+      
+}
+/* 2nd Gradient linear background */
+.gbk2{
+        background: linear-gradient(225deg, white 65%, #C8E195 30%);
+
+}
+
+.smallie {
+    font-size: 30px;
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://img.icons8.com/cotton/2x/tree.png" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/login.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+     <!-- Google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Lacquer|Ubuntu&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Butterfly+Kids|Dancing+Script|Roboto&display=swap" rel="stylesheet">
+
+  <title>Register</title>
+</head>
+<body>
+<!-- Start : Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html" style="font-family: 'Dancing Script', cursive;">Me and a tree <i style="color: #C8E195" class="fas fa-tree"></i></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="tree.html">Trees</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="green.html">Green field</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" tabindex="-1">Become a hero</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- End : Navbar -->
+
+<!-- Start : Specs grid -->
+<br>
+<center><h3 class="scale-in-center" style="font-family: 'Lacquer', sans-serif;">No matter what your thing is, you can help! <i class="far fa-laugh-beam"></i></h3></center>
+<div class="container text-center ">
+    <div class="row">
+        <div class="sm-3 three scale-in-center">
+          <img class="imgSize2" src="img/donate.png" alt="">
+          <h6>Direct donations</h6>
+        </div>
+        <div class="sm-3 three scale-in-center">
+          <img class="imgSize2" src="img/admin.svg" alt="">
+          <h6>Administrative knowledge</h6>
+        </div>
+        <div class="sm-3 three scale-in-center">
+          <img class="imgSize2" src="img/truck.png" alt="">
+          <h6>Truck owners and drivers</h6>
+        </div>
+        <div class="sm-3 three scale-in-center">
+          <img class="imgSize2" src="https://static.thenounproject.com/png/7077-200.png" alt="">
+          <h6>Workers and farmers</h6>
+        </div>
+    </div>
+</div>
+<!-- End : Specs -->
+<!-- Start : Sign up -->
+<br>
+<br>
+	<div class="container h-100">
+		<div class="d-flex justify-content-center h-100">
+			<div class="user_card">
+				<div class="d-flex justify-content-center">
+					<div class="brand_logo_container">
+						<img src="img/earth.gif" class="brand_logo" alt="Logo">
+					</div>
+				</div>
+				<div class="d-flex justify-content-center form_container">
+					<form>
+						<div class="input-group mb-3">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fas fa-user"></i></span>
+							</div>
+							<input type="text" name="" class="form-control input_user" value="" placeholder="username" onkeyup="checkName()" required>
+            </div>
+            <label id="nameIsGood"></label>
+            <div class="input-group mb-2">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fas fa-envelope"></i></span>
+							</div>
+              <input id="email" type="email" name="" class="form-control input_pass" value="" placeholder="example@example.com" onkeyup="validate()" required>
+            </div>
+            <label id="result"></label>
+            <div class="input-group mb-2">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fas fa-key"></i></span>
+							</div>
+							<input  id="password1" type="password" name="" class="form-control input_pass" placeholder="password" onkeyup="checkPasswords()" required>
+            </div>
+              <label id="pw1_check"></label>
+            <div class="input-group mb-2">
+							<div class="input-group-append">
+								<span class="input-group-text"><i class="fas fa-key"></i></span>
+							</div>
+							<input id="password2" type="password" name="" class="form-control input_pass"  placeholder="Retype password" onkeyup="checkPasswords()" required>
+            </div>
+            <label id="pw2_check"></label>
+						<div class="form-group">
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customControlInline">
+								<label class="custom-control-label" for="customControlInline">I agree to terms and conditions</label>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="d-flex justify-content-center mt-3 login_container">
+          <button id="submitBtn" type="button" name="button" class="btn login_btn">Sign up</button>
+          <br>
+        </div>
+				<div class="mt-4">
+					<div class="d-flex justify-content-center links">
+						Already a hero? <a href="#" class="ml-2">Log in</a>
+					</div>
+					<div class="d-flex justify-content-center links">
+						<a href="#">Forgot your password?</a>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+  <!-- End : Signup -->
+   <!-- Start : Footer -->
+  <br>
+ <footer class="pt-4  pt-md-5 border-top">
+        <div class="row">
+          <div class="col-12 col-md">
+            <img class="mb-2" src="https://img.icons8.com/cotton/2x/tree.png" alt="" width="150" height="150">
+            <small class="d-block mb-3 text-muted">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Me and a tree &copy;</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Cool stuff</a></li>
+              <li><a class="text-muted" href="#">Random feature</a></li>
+              <li><a class="text-muted" href="#">Team feature</a></li>
+              <li><a class="text-muted" href="#">Stuff for developers</a></li>
+              <li><a class="text-muted" href="#">Another one</a></li>
+              <li><a class="text-muted" href="#">Last time</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Resource</a></li>
+              <li><a class="text-muted" href="#">Resource name</a></li>
+              <li><a class="text-muted" href="#">Another resource</a></li>
+              <li><a class="text-muted" href="#">Final resource</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Team</a></li>
+              <li><a class="text-muted" href="#">Locations</a></li>
+              <li><a class="text-muted" href="#">Privacy</a></li>
+              <li><a class="text-muted" href="#">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+<!-- Start : Validation -->
+<script>
+function validateEmail(email) {
+var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+return re.test(email);
+}
+
+function validate() {
+  var $result = $("#result");
+  var email = $("#email").val();
+  $result.text("");
+
+  if (validateEmail(email)) {
+    $result.text("Valid :)");
+  } else {
+    $result.text("Not valid :(");
+  }
+  return false;
+}
+
+$("#validate").on("click", validate);
+
+        function checkPasswords() {
+            var pw1 = document.getElementById("password1").value;
+            var pw2 = document.getElementById("password2").value;
+            var pw1check = document.getElementById("pw1_check");
+            var pw2check = document.getElementById("pw2_check");
+            var isError = false;
+            if (pw1.length > 0) {
+                if (pw1.length < 6) {
+                    pw1check.innerHTML = "Too short";
+                    isError = true;
+                }
+                else {
+                    pw1check.innerHTML = "";
+                }
+                if (pw2.length > 0 && pw1 !== pw2) {
+                    pw2check.innerHTML = "the two passwords don't match";
+                    isError = true;
+                }
+                else {
+                    pw2check.innerHTML = "";
+                }
+            }
+            else {
+                pw1check.innerHTML = "";
+            }
+            // show the submit button only if everything is OK
+        }
+        window.onload = function () {
+        }    
+</script>
+<!-- End : Validation -->
+</body>
+</html>
