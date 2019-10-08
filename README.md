@@ -4,7 +4,7 @@
 
 
 **Description :**
-This repository holds the solutions submitted in partial fulfillment of the participation requirements of the Coding Academy .
+This repository holds the solutions and assessments submitted in partial fulfillment of the participation requirements of the Coding Academy by Orange™.
 
 **Subjects :**
 
@@ -19,7 +19,7 @@ This repository holds the solutions submitted in partial fulfillment of the part
 | CSS Grid         | ✔️            |  |
 | Simple Bootstrap | ✔️            |  |
 | Adv Bootstrap    | ✔️            |  |
-| Project One      | ✔️            |  |
+| Online CV     | ✔️            |  |
 | JS Basic         | ✔️            |  |
 | JS Arrays        | ✔️            |  |
 | JS Loops         | ✔️            |  |
@@ -34,12 +34,17 @@ This repository holds the solutions submitted in partial fulfillment of the part
 | JS DOM           | ✔️            |  |
 | jQuery Basic#1   | ✔️            |  |
 | JQuery Advanced  | ✔️            |Replaced due to laptop format.  |
-| Project Two      | ✔️            |  |
+| Me and a tree     | ✔️            |  |
 | JS OOJS          | ✔️            |  |
-| JS ES6           | ✔️            | Part 2 is not uploaded yet. |
-|React-mini-apps   | ✔️            | Exercise 4 is uploaded yet. |
+| JS ES6           | ✔️           | Part 2 is not uploaded yet. |
+|React-mini-apps   | ✔️           | Exercise 4 is uploaded yet. |
 |Project three     | ✔️           | Uploaded in a separated repository. |
-|Extra Github project    | ✔️           | Uploaded in a separated repository. |
+|Extra Github proje| ✔️           | Uploaded in a separated repository. |
 |MongoDB           | ✔️           | Part 2 is not uploaded yet. |
-|MySQL           | ❌           | |
+|MySQL             | ❌           | |
+|PHP CRUD          | ✔️           | |
+|WordPress         | ✔️           | Practial project.
+|PHP OOP CRUD      | ✔️           | |
+|Laravel todo list | ✔️           | |
+|Laravel Student Resources| ✔️    | First version Prototype.
 
