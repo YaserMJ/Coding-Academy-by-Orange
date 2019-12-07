@@ -19,7 +19,7 @@ This repository holds the solutions and assessments submitted in partial fulfill
 | CSS Grid         | ✔️            |  |
 | Simple Bootstrap | ✔️            |  |
 | Adv Bootstrap    | ✔️            |  |
-| Online CV     | ✔️            |  |
+| Online CV Project| ✔️            |  |
 | JS Basic         | ✔️            |  |
 | JS Arrays        | ✔️            |  |
 | JS Loops         | ✔️            |  |
@@ -34,17 +34,34 @@ This repository holds the solutions and assessments submitted in partial fulfill
 | JS DOM           | ✔️            |  |
 | jQuery Basic#1   | ✔️            |  |
 | JQuery Advanced  | ✔️            |Replaced due to laptop format.  |
-| Me and a tree     | ✔️            |  |
+| Me and a tree Project| ✔️            |  |
 | JS OOJS          | ✔️            |  |
 | JS ES6           | ✔️           | Part 2 is not uploaded yet. |
 |React-mini-apps   | ✔️           | Exercise 4 is uploaded yet. |
-|Project three     | ✔️           | Uploaded in a separated repository. |
-|Extra Github proje| ✔️           | Uploaded in a separated repository. |
+|ReactMon Project  | ✔️           | Uploaded in a separated repository. |
+|Extra GitHub Project| ✔️           | Uploaded in a separated repository. |
 |MongoDB           | ✔️           | Part 2 is not uploaded yet. |
 |MySQL             | ❌           | |
 |PHP CRUD          | ✔️           | |
-|WordPress         | ✔️           | Practial project.
+|WordPress Project | ✔️           | Practial project.
 |PHP OOP CRUD      | ✔️           | |
 |Laravel todo list | ✔️           | |
-|Laravel Student Resources| ✔️    | First version Prototype.
+|Laravel Student Resources Project| ✔️    | First version Prototype.
+|React todo list   | ✔️           | |
+|GitHub lvl 1      | ✔️           | |
+|MERN Stack Todo list| ✔️           | |
+|MERN Stack GitHub Project| ✔️           | |
+|MERN Stack Tourism Project| ✔️           | Uploaded in a separated repository.|
+|React Native Pokemon Project| ✔️           | |
+|Python Exercises  | ✔️           | Exercises 5 & 7 are not uploaded yet.|
+|Python Project one| ✔️           | |
+|Python Project two| ✔️           | |
+|Python Project three| ✔️           | |
+
+
+
+
+
+
+
 
