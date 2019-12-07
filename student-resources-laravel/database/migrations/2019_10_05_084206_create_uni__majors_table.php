@@ -1,0 +1,39 @@
+<?php
+
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class CreateUniMajorsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('uni__majors', function (Blueprint $table) {
+
+            $table->bigIncrements('id');
+
+            $table->unsignedBigInteger('uni_id');
+            $table->foreign('uni_id')->references('id')->on('universities');
+
+            $table->unsignedBigInteger('major_id');
+            $table->foreign('major_id')->references('id')->on('majors');
+
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('uni__majors');
+    }
+}
