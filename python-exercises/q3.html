@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="static/main.css" />
+    <script
+      type="text/javascript"
+      src="{{url_for('static',filename ='main.js')}}"
+    ></script>
+    <style>
+      h1 {
+        color: red;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 400%;
+      }
+      h6 {
+        color: blue;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 200%;
+      }
+    </style>
+    <title>{{title}}</title>
+  </head>
+  <body>
+    <h1>{{user.username}}</h1>
+    <h6>{{user.location}}</h6>
+  </body>
+</html>
