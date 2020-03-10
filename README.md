@@ -57,6 +57,9 @@ This repository holds the solutions and assessments submitted in partial fulfill
 |Python Project one| ✔️           | |
 |Python Project two| ✔️           | |
 |Python Project three| ✔️           | |
+|Python Project four | ✔️           | |
+|Masterpeice/Final Project| ✔️           |Uploaded in a separated repository. |
+
 
 
 
